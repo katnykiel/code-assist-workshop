@@ -4,7 +4,7 @@
 # jupyter
 #
 /usr/bin/invoke_app "$@" -t llm4code \
-                         -C "start_jupyter -t -T @tool claude-demo.ipynb" \
+                         -C "start_jupyter -T @tool -t claude-demo.ipynb" \
                          -u anaconda-7 \
                          -w headless \
                          -r none
